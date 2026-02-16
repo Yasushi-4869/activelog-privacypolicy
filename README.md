@@ -1,2 +1,1 @@
-# activelog-privacypolicy
-iOSアプリ【ActiveLog】のプライバシーポリシーページです
+# ActiveLogプライバシーポリシー
