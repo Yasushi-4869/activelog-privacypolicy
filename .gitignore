@@ -1,18 +1,24 @@
-# Dependencies
-node_modules/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Build output
-dist/
+node_modules
+dist
+dist-ssr
+*.local
 
-# Environment
-.env
-.env.local
-.env.production
-
-# Editor
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-*.swp
-
-# Docs（ローカル管理用）
-CLAUDE.md
-docs/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
