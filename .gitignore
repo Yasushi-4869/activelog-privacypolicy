@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Editor
+.DS_Store
+*.swp
+
+# Docs（ローカル管理用）
+CLAUDE.md
+docs/
