@@ -5,12 +5,15 @@ export default function Privacy() {
   return (
     <Layout>
       <h1 className={s.h1}>ActiveLog プライバシーポリシー</h1>
-      <span className={s.date}>最終更新日: 2026年2月10日</span>
+      <span className={s.date}>最終更新日: 2026年4月5日</span>
 
       <section className={s.section}>
         <h2 className={s.h2}>個人情報の収集について</h2>
         <p className={s.p}>
           本アプリでは、ユーザーが入力したタスク名・記録データ等はすべて端末内にのみ保存され、開発者がこれらの情報を収集・閲覧することはありません。
+        </p>
+        <p className={`${s.p} mt-3`}>
+          アプリ内の「ご意見・ご要望」フォームからお問い合わせいただいた場合、入力されたメールアドレスをお問い合わせへの返信目的のみに使用します。取得した情報を第三者に提供することはありません。
         </p>
       </section>
 
@@ -62,8 +65,13 @@ export default function Privacy() {
 
       <section className={s.section}>
         <h2 className={s.h2}>お問い合わせ</h2>
-        <p className={s.p}>
+        <p className={`${s.p} mb-3`}>
           プライバシーポリシーに関するお問い合わせは、アプリ内の「ご意見・ご要望」からお願いいたします。
+        </p>
+        <p className={s.p}>
+          個人情報の取り扱いに関するお問い合わせは
+          <a href="PLACEHOLDER_FORM_URL" target="_blank" rel="noopener noreferrer" className={s.link}>こちらのフォーム</a>
+          からお願いいたします。
         </p>
       </section>
     </Layout>
