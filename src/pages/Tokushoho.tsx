@@ -11,11 +11,11 @@ export default function Tokushoho() {
       <dl className="space-y-8">
         <div>
           <dt className={dt}>販売業者</dt>
-          <dd className={s.p}>[販売業者名・屋号]</dd>
+          <dd className={s.p}>小田 康史</dd>
         </div>
         <div>
           <dt className={dt}>運営責任者</dt>
-          <dd className={s.p}>[運営責任者氏名]</dd>
+          <dd className={s.p}>小田 康史</dd>
         </div>
         <div>
           <dt className={dt}>所在地</dt>
@@ -27,7 +27,7 @@ export default function Tokushoho() {
         </div>
         <div>
           <dt className={dt}>メールアドレス</dt>
-          <dd className={s.p}>[メールアドレス]</dd>
+          <dd className={s.p}>activelog.support@gmail.com</dd>
         </div>
         <div>
           <dt className={dt}>販売価格</dt>
@@ -103,7 +103,9 @@ export default function Tokushoho() {
         </div>
         <div>
           <dt className={dt}>お問い合わせ</dt>
-          <dd className={s.p}>[メールアドレス]</dd>
+          <dd className={s.p}>
+            <a href="PLACEHOLDER_FORM_URL" target="_blank" rel="noopener noreferrer" className={s.link}>お問い合わせフォーム</a>
+          </dd>
         </div>
       </dl>
     </Layout>
