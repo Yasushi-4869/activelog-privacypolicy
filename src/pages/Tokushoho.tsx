@@ -104,7 +104,7 @@ export default function Tokushoho() {
         <div>
           <dt className={dt}>お問い合わせ</dt>
           <dd className={s.p}>
-            <a href="PLACEHOLDER_FORM_URL" target="_blank" rel="noopener noreferrer" className={s.link}>お問い合わせフォーム</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqsMUGB7YknfxbmyolVlIifz6fmWSGZond1FMTrIP1RbVLMA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className={s.link}>お問い合わせフォーム</a>
           </dd>
         </div>
       </dl>
